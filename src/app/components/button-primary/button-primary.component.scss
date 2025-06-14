@@ -1,0 +1,19 @@
+@import "../../styles/variables";
+
+.button-primary {
+  padding: 12px 20px;
+
+  font-size: 16px;
+  font-weight: 500px;
+
+  color: $btn-text-color;
+  background: #5222d0;
+  background: linear-gradient(
+    90deg,
+    rgba(82, 34, 208, 1) 28%,
+    rgba(255, 97, 150, 1) 100%
+  );
+
+  border: none;
+  border-radius: 8px;
+}
